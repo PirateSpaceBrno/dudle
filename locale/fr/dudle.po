@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-22 20:36+0200\n"
+"POT-Creation-Date: 2017-11-21 03:20+0100\n"
 "PO-Revision-Date: 2011-06-03 16:57+0100\n"
 "Last-Translator: Gilles Seban\n"
 "Language-Team: \n"
@@ -158,6 +158,20 @@ msgstr "L'utilisateur 'participant’ n'a accès qu'au vote."
 msgid "Access control:"
 msgstr "Contrôle d'accès :"
 
+#: ../advanced.rb:31 ../advanced.rb:35
+#, fuzzy
+msgid "Revert Poll"
+msgstr "Supprimer le sondage"
+
+#: ../advanced.rb:32
+#, fuzzy
+msgid "Poll was reverted to Version %{version}!"
+msgstr "Sondage courant (Version %{revisionnumber})"
+
+#: ../advanced.rb:37
+msgid "Revert Poll to version (see History tab for revision numbers): "
+msgstr ""
+
 #: ../authorization_required.cgi:36 ../authorization_required.cgi:52
 msgid "Authorization Required"
 msgstr "Autorisation requise"
@@ -175,21 +189,13 @@ msgid "In order to proceed, you have to give the password for user %{user}."
 msgstr ""
 "Vous devez vous identifier avec l'identifiant %{user} avant de continuer."
 
-#: ../authorization_required.cgi:53 ../not_found.cgi:36
+#: ../authorization_required.cgi:53 ../not_found.cgi:37
 msgid "Return to dudle home and Schedule a new Poll"
 msgstr "Retour à la page d'accueil et créer un nouveau sondage"
 
 #: ../authorization_required.cgi:54
 msgid "You have to authorize yourself in order to access this page!"
 msgstr "Vous devez vous identifier pour afficher cette page !"
-
-#: ../config.rb:92
-msgid "Event Schedule Poll"
-msgstr "Sondage de choix de date"
-
-#: ../config.rb:96
-msgid "Normal Poll"
-msgstr "Sondage normal"
 
 #: ../customize.cgi:31 ../customize.rb:31
 msgid "Customize Personal Settings"
@@ -566,25 +572,25 @@ msgid ""
 "\"maintenance.html\" to enable the maintenance mode."
 msgstr ""
 
-#: ../not_found.cgi:29
+#: ../not_found.cgi:30
 msgid "Poll Not Found"
 msgstr "Sondage introuvable"
 
-#: ../not_found.cgi:31
+#: ../not_found.cgi:32
 msgid "The requested Poll was not found."
 msgstr "Le sondage demandé est introuvable."
 
-#: ../not_found.cgi:32
+#: ../not_found.cgi:33
 msgid "There are several reasons, why a Poll is deleted:"
 msgstr "Il peut y avoir plusieurs explications à la suppression d'un sondage :"
 
-#: ../not_found.cgi:33
+#: ../not_found.cgi:34
 msgid "Somebody clicked on “Delete Poll” and deleted the poll manually."
 msgstr ""
 "Quelqu'un a cliqué sur \"Supprimer le sondage\" et supprimé le sondage "
 "manuellement."
 
-#: ../not_found.cgi:34
+#: ../not_found.cgi:35
 msgid ""
 "The Poll was deleted by the administrator because it was not accessed for a "
 "long time."
@@ -592,7 +598,7 @@ msgstr ""
 "Le sondage a été supprimé par l'administrateur car il était inactif depuis "
 "une longue période."
 
-#: ../not_found.cgi:35
+#: ../not_found.cgi:36
 msgid ""
 "If you think, the deletion was done by error, please contact the "
 "adminsistrator of the system."
@@ -822,6 +828,12 @@ msgstr "Ajouter"
 #: ../timepollhead.rb:428
 msgid "e.&thinsp;g., 09:30, morning, afternoon"
 msgstr "ex : 09:30, matin, après-midi"
+
+#~ msgid "Event Schedule Poll"
+#~ msgstr "Sondage de choix de date"
+
+#~ msgid "Normal Poll"
+#~ msgstr "Sondage normal"
 
 #~ msgid "Things you can do now are"
 #~ msgstr "Choses que vous pouvez faire maintenant"

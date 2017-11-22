@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eo\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-22 20:36+0200\n"
+"POT-Creation-Date: 2017-11-21 03:20+0100\n"
 "PO-Revision-Date: 2017-10-19 12:06+0100\n"
 "Last-Translator: eo.001\n"
 "Language-Team: eo <->\n"
@@ -36,7 +36,8 @@ msgstr ""
 
 #: ../about.cgi:33
 msgid "The Sourcecode of this application can be found %{a_start}here%{a_end}."
-msgstr "La fontokodo de tiu ĉi aplikaĵo estas trovebla %{a_start}ĉi tie%{a_end}."
+msgstr ""
+"La fontokodo de tiu ĉi aplikaĵo estas trovebla %{a_start}ĉi tie%{a_end}."
 
 #: ../about.cgi:35
 msgid ""
@@ -142,6 +143,20 @@ msgstr ""
 msgid "Access control:"
 msgstr "Alir-kontrolo: "
 
+#: ../advanced.rb:31 ../advanced.rb:35
+#, fuzzy
+msgid "Revert Poll"
+msgstr "Forigi voĉdonilon"
+
+#: ../advanced.rb:32
+#, fuzzy
+msgid "Poll was reverted to Version %{version}!"
+msgstr "Voĉdonilo laŭ versio %{revisionnumber}"
+
+#: ../advanced.rb:37
+msgid "Revert Poll to version (see History tab for revision numbers): "
+msgstr ""
+
 #: ../authorization_required.cgi:36 ../authorization_required.cgi:52
 msgid "Authorization Required"
 msgstr "Rajtigo bezonata"
@@ -158,21 +173,13 @@ msgstr "Tiu ĉi voĉdonilo estas protektata per pasvorto!"
 msgid "In order to proceed, you have to give the password for user %{user}."
 msgstr "Por antaŭeniĝi necesas enigi pasvorton de uzanto %{user}."
 
-#: ../authorization_required.cgi:53 ../not_found.cgi:36
+#: ../authorization_required.cgi:53 ../not_found.cgi:37
 msgid "Return to dudle home and Schedule a new Poll"
 msgstr "Reen al Dudl-ĉefpaĝo kaj estigi novan voĉdonadon"
 
 #: ../authorization_required.cgi:54
 msgid "You have to authorize yourself in order to access this page!"
 msgstr "Necesas rajtigi sin por povi atingi tiun paĝon!"
-
-#: ../config.rb:92
-msgid "Event Schedule Poll"
-msgstr "Demandi pri taŭga tempo"
-
-#: ../config.rb:96
-msgid "Normal Poll"
-msgstr "Kutima voĉdonilo"
 
 #: ../customize.cgi:31 ../customize.rb:31
 msgid "Customize Personal Settings"
@@ -554,23 +561,23 @@ msgstr ""
 "Ne foliumu al tiu paĝo rekte. Bonvolu krei datenon nomita \"maintenance.html"
 "\" por aktivigi la funkcitenan reĝimon."
 
-#: ../not_found.cgi:29
+#: ../not_found.cgi:30
 msgid "Poll Not Found"
 msgstr "Voĉdonilo ne trovita"
 
-#: ../not_found.cgi:31
+#: ../not_found.cgi:32
 msgid "The requested Poll was not found."
 msgstr "La dezirata voĉdonilo ne estis trovata."
 
-#: ../not_found.cgi:32
+#: ../not_found.cgi:33
 msgid "There are several reasons, why a Poll is deleted:"
 msgstr "Ekzistas pluraj kaŭzoj, kial voĉdonilo estas forigata: "
 
-#: ../not_found.cgi:33
+#: ../not_found.cgi:34
 msgid "Somebody clicked on “Delete Poll” and deleted the poll manually."
 msgstr "Iu alklakis \"Forigu voĉdonilon\" kaj forigis ĝin mane. "
 
-#: ../not_found.cgi:34
+#: ../not_found.cgi:35
 msgid ""
 "The Poll was deleted by the administrator because it was not accessed for a "
 "long time."
@@ -578,7 +585,7 @@ msgstr ""
 "La voĉdonilo estis forigata fare de la administranto, ĉar ĝi ne estis "
 "alirata dum longa tempo. "
 
-#: ../not_found.cgi:35
+#: ../not_found.cgi:36
 msgid ""
 "If you think, the deletion was done by error, please contact the "
 "adminsistrator of the system."
@@ -807,6 +814,12 @@ msgstr "Aldoni"
 #: ../timepollhead.rb:428
 msgid "e.&thinsp;g., 09:30, morning, afternoon"
 msgstr "ekzemple 09:30, matene, posttagmeze"
+
+#~ msgid "Event Schedule Poll"
+#~ msgstr "Demandi pri taŭga tempo"
+
+#~ msgid "Normal Poll"
+#~ msgstr "Kutima voĉdonilo"
 
 #~ msgid ""
 #~ "End-to-End encrypted/authenticated Poll (see the Password in the Comments)"

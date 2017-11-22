@@ -53,7 +53,7 @@ if $cgi.include?("create_poll") && $cgi.include?("poll_url")
 			begin
 				VCS.init
 				File.symlink("../participate.rb","index.cgi")
-				["atom","customize", "history", "overview", "edit_columns","access_control", "delete_poll", "invite_participants"].each{|f|
+				["atom","customize", "history", "overview", "edit_columns","access_control", "invite_participants"].each{|f|
 					File.symlink("../#{f}.rb","#{f}.cgi")
 				}
 				["data.yaml",".htaccess",".htdigest"].each{|f|

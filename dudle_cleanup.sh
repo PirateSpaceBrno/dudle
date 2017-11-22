@@ -3,7 +3,7 @@
 DAYS=90
 
 # installation path
-DUDLE_DIR=/var/www/dudle/
+DUDLE_DIR=/var/www/html/
 
 for i in `find $DUDLE_DIR -maxdepth 2 -name last_read_access -mtime +$DAYS`;do
 	echo "[`date --rfc-3339=seconds`] `ls -l $i`"

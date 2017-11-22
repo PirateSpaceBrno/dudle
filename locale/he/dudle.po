@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-22 20:36+0200\n"
+"POT-Creation-Date: 2017-11-21 03:20+0100\n"
 "PO-Revision-Date: 2017-02-16 20:46+0100\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>, 2017\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/76313/he/)\n"
@@ -132,6 +132,20 @@ msgstr "למשתמש 'משתתף' יש גישה רק למנשק ההצבעה."
 msgid "Access control:"
 msgstr "בקרת גישה:"
 
+#: ../advanced.rb:31 ../advanced.rb:35
+#, fuzzy
+msgid "Revert Poll"
+msgstr "מחיקת סקר"
+
+#: ../advanced.rb:32
+#, fuzzy
+msgid "Poll was reverted to Version %{version}!"
+msgstr "סקר בגרסה %{revisionnumber}"
+
+#: ../advanced.rb:37
+msgid "Revert Poll to version (see History tab for revision numbers): "
+msgstr ""
+
 #: ../authorization_required.cgi:36 ../authorization_required.cgi:52
 msgid "Authorization Required"
 msgstr "נדרש אימות"
@@ -148,21 +162,13 @@ msgstr "סקר זה מוגן בססמה!"
 msgid "In order to proceed, you have to give the password for user %{user}."
 msgstr "כדי להמשיך, עליך לספק את הססמה למשתמש %{user}."
 
-#: ../authorization_required.cgi:53 ../not_found.cgi:36
+#: ../authorization_required.cgi:53 ../not_found.cgi:37
 msgid "Return to dudle home and Schedule a new Poll"
 msgstr "יש לחזור לעמוד הבית של dudle כדי לתזמן סקר חדש"
 
 #: ../authorization_required.cgi:54
 msgid "You have to authorize yourself in order to access this page!"
 msgstr "עליך להזדהות מול המערכת כדי לגשת לעמוד זה!"
-
-#: ../config.rb:92
-msgid "Event Schedule Poll"
-msgstr "סקר תזמון אירוע"
-
-#: ../config.rb:96
-msgid "Normal Poll"
-msgstr "סקר רגיל"
 
 #: ../customize.cgi:31 ../customize.rb:31
 msgid "Customize Personal Settings"
@@ -536,29 +542,29 @@ msgstr ""
 "אין לגלוש לקובץ זה ישירות. נא ליצור קובץ בשם „maintenance.html” כדי להפעיל "
 "מצב תחזוקה."
 
-#: ../not_found.cgi:29
+#: ../not_found.cgi:30
 msgid "Poll Not Found"
 msgstr "לא נמצא סקר"
 
-#: ../not_found.cgi:31
+#: ../not_found.cgi:32
 msgid "The requested Poll was not found."
 msgstr "הסקר המבוקש לא נמצא."
 
-#: ../not_found.cgi:32
+#: ../not_found.cgi:33
 msgid "There are several reasons, why a Poll is deleted:"
 msgstr "ישנן מספר סיבות למחיקת סקר:"
 
-#: ../not_found.cgi:33
+#: ../not_found.cgi:34
 msgid "Somebody clicked on “Delete Poll” and deleted the poll manually."
 msgstr "הכפתור „מחיקת סקר” נלחץ בטעות והסקר נמחק ידנית."
 
-#: ../not_found.cgi:34
+#: ../not_found.cgi:35
 msgid ""
 "The Poll was deleted by the administrator because it was not accessed for a "
 "long time."
 msgstr "הסקר נמחק על ידי המנהל כיוון שלא ניגשו אליו זמן רב."
 
-#: ../not_found.cgi:35
+#: ../not_found.cgi:36
 msgid ""
 "If you think, the deletion was done by error, please contact the "
 "adminsistrator of the system."
@@ -784,6 +790,12 @@ msgstr "הוספה"
 #: ../timepollhead.rb:428
 msgid "e.&thinsp;g., 09:30, morning, afternoon"
 msgstr "למשל: 09:30, בוקר, צהריים"
+
+#~ msgid "Event Schedule Poll"
+#~ msgstr "סקר תזמון אירוע"
+
+#~ msgid "Normal Poll"
+#~ msgstr "סקר רגיל"
 
 #~ msgid ""
 #~ "End-to-End encrypted/authenticated Poll (see the Password in the Comments)"

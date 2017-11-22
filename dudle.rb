@@ -83,10 +83,8 @@ class Dudle
 				[_("Overview"),"overview.cgi"]
 			]
 			@tabs += @configtabs
-			@tabs << [_("Delete Poll"),"delete_poll.cgi"]
 			@tabs << ["",""]
 		else
-			@tabs << [_("Examples"),"example.cgi"]
 			@tabs << [_("About"),"about.cgi"]
 		end
 		@tabs << [_("Customize"),"customize.cgi"]
@@ -139,13 +137,13 @@ class Dudle
 		else
 			@basedir = "."
 			inittabs
-			@title = params[:title] || "dudle"
+			@title = params[:title] || "Pirátský Dudle"
 			@html = HTML.new(@title,params[:relative_dir])
 		end
 
 
 		
-		@css = ["default", "classic", "print"].collect{|f| f + ".css"}
+		@css = ["pirate"].collect{|f| f + ".css"}
 		if Dir.exists?("#{@basedir}/css/")
 			Dir.open("#{@basedir}/css/").each{|f|
 				if f =~ /\.css$/
@@ -243,24 +241,12 @@ READY
 		@html << "</div>" # content
 		@html << "<div id='languageChooser'><ul>"
 		lang = [
+			["cs", "Česky"],
+			["de", "Deutsch"],
 			["en", "English"],
 			["es", "Español"],
-			["pt_BR", "Português brasileiro"],
-			["fr", "Français"],
-			["de", "Deutsch"],
-			["it", "Italiano"],
-			["nl", "Nederlands"],
-			["hu", "Magyar"],
-			["sv", "Svenska"],
-			["cs", "Česky"],
-			["he", "עִבְרִית"],
-			["ca", "Català"],
-			["no", "Norsk"],
-			["gl", "Galego"],
-			["sw", "Kiswahili"],
-			["et", "Eesti"],
-			["eo", "Esperanto"]
-			]
+			["fr", "Français"]
+		]
 		unless @hide_lang_chooser
 			lang.each{|short,long|
 				if short == GetText.locale.language

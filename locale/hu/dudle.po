@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 510\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-22 20:36+0200\n"
+"POT-Creation-Date: 2017-11-21 03:20+0100\n"
 "PO-Revision-Date: 2011-07-04 06:55+0200\n"
 "Last-Translator: Gabor Kiss <kissg@ssg.ki.iif.hu>\n"
 "Language-Team: \n"
@@ -151,6 +151,20 @@ msgstr "A ’participant’ felhasználó csak szavazhat."
 msgid "Access control:"
 msgstr "Hozzáférés-szabályozás:"
 
+#: ../advanced.rb:31 ../advanced.rb:35
+#, fuzzy
+msgid "Revert Poll"
+msgstr "Szavazás törlése"
+
+#: ../advanced.rb:32
+#, fuzzy
+msgid "Poll was reverted to Version %{version}!"
+msgstr "A szavazás %{revisionnumber}. verziója"
+
+#: ../advanced.rb:37
+msgid "Revert Poll to version (see History tab for revision numbers): "
+msgstr ""
+
 #: ../authorization_required.cgi:36 ../authorization_required.cgi:52
 msgid "Authorization Required"
 msgstr "Azonosítsd magad!"
@@ -167,21 +181,13 @@ msgstr "Jelszóval védett szavazás!"
 msgid "In order to proceed, you have to give the password for user %{user}."
 msgstr "A továbblépéshez add meg a(z) %{user} felhasználó jelszavát!"
 
-#: ../authorization_required.cgi:53 ../not_found.cgi:36
+#: ../authorization_required.cgi:53 ../not_found.cgi:37
 msgid "Return to dudle home and Schedule a new Poll"
 msgstr "Vissza a címlapra. Új szavazás kiírása."
 
 #: ../authorization_required.cgi:54
 msgid "You have to authorize yourself in order to access this page!"
 msgstr "Az oldal csak azonosítás után érhető el!"
-
-#: ../config.rb:92
-msgid "Event Schedule Poll"
-msgstr "Időpontválasztás"
-
-#: ../config.rb:96
-msgid "Normal Poll"
-msgstr "Normál szavazás"
 
 #: ../customize.cgi:31 ../customize.rb:31
 msgid "Customize Personal Settings"
@@ -553,30 +559,30 @@ msgid ""
 "\"maintenance.html\" to enable the maintenance mode."
 msgstr ""
 
-#: ../not_found.cgi:29
+#: ../not_found.cgi:30
 msgid "Poll Not Found"
 msgstr "Nincs ilyen szavazás"
 
-#: ../not_found.cgi:31
+#: ../not_found.cgi:32
 msgid "The requested Poll was not found."
 msgstr "A megadott szavazás nem létezik."
 
-#: ../not_found.cgi:32
+#: ../not_found.cgi:33
 msgid "There are several reasons, why a Poll is deleted:"
 msgstr "Több okból is eltűnhetett a szavazás:"
 
-#: ../not_found.cgi:33
+#: ../not_found.cgi:34
 msgid "Somebody clicked on “Delete Poll” and deleted the poll manually."
 msgstr "Valaki a „Törlés” linkre kattintott, és kitörölte a szavazást."
 
-#: ../not_found.cgi:34
+#: ../not_found.cgi:35
 msgid ""
 "The Poll was deleted by the administrator because it was not accessed for a "
 "long time."
 msgstr ""
 "A szavazást az adminisztrátor törölte, mert már régóta nem nézett rá senki."
 
-#: ../not_found.cgi:35
+#: ../not_found.cgi:36
 msgid ""
 "If you think, the deletion was done by error, please contact the "
 "adminsistrator of the system."
@@ -803,6 +809,12 @@ msgstr "Hozzáadás"
 #: ../timepollhead.rb:428
 msgid "e.&thinsp;g., 09:30, morning, afternoon"
 msgstr "pl. 09:30, reggel, délután"
+
+#~ msgid "Event Schedule Poll"
+#~ msgstr "Időpontválasztás"
+
+#~ msgid "Normal Poll"
+#~ msgstr "Normál szavazás"
 
 #~ msgid "Things you can do now are"
 #~ msgstr "Milyen lehetőségeid vannak?"

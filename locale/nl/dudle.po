@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-22 20:36+0200\n"
+"POT-Creation-Date: 2017-11-21 03:20+0100\n"
 "PO-Revision-Date: 2011-05-11 13:46+0100\n"
 "Last-Translator: Joeri de Ruiter <joeri@cs.ru.nl>\n"
 "Language-Team: \n"
@@ -152,6 +152,20 @@ msgstr "De gebruiker 'participant' heeft alleen toegang tot de stem interface."
 msgid "Access control:"
 msgstr "Toegangsrechten:"
 
+#: ../advanced.rb:31 ../advanced.rb:35
+#, fuzzy
+msgid "Revert Poll"
+msgstr "Verwijder Poll"
+
+#: ../advanced.rb:32
+#, fuzzy
+msgid "Poll was reverted to Version %{version}!"
+msgstr "Poll van Versie %{revisionnumber}"
+
+#: ../advanced.rb:37
+msgid "Revert Poll to version (see History tab for revision numbers): "
+msgstr ""
+
 #: ../authorization_required.cgi:36 ../authorization_required.cgi:52
 msgid "Authorization Required"
 msgstr "Authorisatie Vereist"
@@ -170,21 +184,13 @@ msgstr ""
 "Om door te kunnen gaan moet het wachtwoord voor gebruiker %{user} worden "
 "ingevoerd."
 
-#: ../authorization_required.cgi:53 ../not_found.cgi:36
+#: ../authorization_required.cgi:53 ../not_found.cgi:37
 msgid "Return to dudle home and Schedule a new Poll"
 msgstr "Keer terug naar dudle home en plan een nieuwe Poll"
 
 #: ../authorization_required.cgi:54
 msgid "You have to authorize yourself in order to access this page!"
 msgstr "Je moet je authoriseren om deze pagina te kunnen bekijken!"
-
-#: ../config.rb:92
-msgid "Event Schedule Poll"
-msgstr ""
-
-#: ../config.rb:96
-msgid "Normal Poll"
-msgstr ""
 
 #: ../customize.cgi:31 ../customize.rb:31
 msgid "Customize Personal Settings"
@@ -565,25 +571,25 @@ msgid ""
 "\"maintenance.html\" to enable the maintenance mode."
 msgstr ""
 
-#: ../not_found.cgi:29
+#: ../not_found.cgi:30
 msgid "Poll Not Found"
 msgstr "Poll Niet Gevonden"
 
-#: ../not_found.cgi:31
+#: ../not_found.cgi:32
 msgid "The requested Poll was not found."
 msgstr "De opgevraagde Poll is niet gevonden."
 
-#: ../not_found.cgi:32
+#: ../not_found.cgi:33
 msgid "There are several reasons, why a Poll is deleted:"
 msgstr "Er zijn verschillende redenen waarom een Poll is verwijderd"
 
-#: ../not_found.cgi:33
+#: ../not_found.cgi:34
 #, fuzzy
 msgid "Somebody clicked on “Delete Poll” and deleted the poll manually."
 msgstr ""
 "Iemand heeft op “Verwijder Poll” geklikt en de poll handmatig verwijderd."
 
-#: ../not_found.cgi:34
+#: ../not_found.cgi:35
 msgid ""
 "The Poll was deleted by the administrator because it was not accessed for a "
 "long time."
@@ -591,7 +597,7 @@ msgstr ""
 "De Poll was verwijderd door een beheerder omdat de Poll lange tijd niet meer "
 "was bezocht."
 
-#: ../not_found.cgi:35
+#: ../not_found.cgi:36
 msgid ""
 "If you think, the deletion was done by error, please contact the "
 "adminsistrator of the system."

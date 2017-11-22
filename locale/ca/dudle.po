@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-22 20:36+0200\n"
+"POT-Creation-Date: 2017-11-21 03:20+0100\n"
 "PO-Revision-Date: 2011-12-17 02:00+0100\n"
 "Last-Translator: Laura Mora i Aubert <blackhold@marsupi.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -136,6 +136,20 @@ msgstr "El usuari ‘participant’ només pot votar."
 msgid "Access control:"
 msgstr "Control d'accés:"
 
+#: ../advanced.rb:31 ../advanced.rb:35
+#, fuzzy
+msgid "Revert Poll"
+msgstr "Esborra enquesta"
+
+#: ../advanced.rb:32
+#, fuzzy
+msgid "Poll was reverted to Version %{version}!"
+msgstr "Enquesta de la versió %{revisionnumber}"
+
+#: ../advanced.rb:37
+msgid "Revert Poll to version (see History tab for revision numbers): "
+msgstr ""
+
 #: ../authorization_required.cgi:36 ../authorization_required.cgi:52
 msgid "Authorization Required"
 msgstr "Es requereix autorització"
@@ -152,21 +166,13 @@ msgstr "Aquesta enquesta està protegida amb contrasenya!"
 msgid "In order to proceed, you have to give the password for user %{user}."
 msgstr "Per continuar, has de definir la contrasenya per al usuari %{user}."
 
-#: ../authorization_required.cgi:53 ../not_found.cgi:36
+#: ../authorization_required.cgi:53 ../not_found.cgi:37
 msgid "Return to dudle home and Schedule a new Poll"
 msgstr "Torna a la pàgina d'inici de dudle i programa una nova Enquesta"
 
 #: ../authorization_required.cgi:54
 msgid "You have to authorize yourself in order to access this page!"
 msgstr "T'has d'identificar per accedir a aquesta pàgina!"
-
-#: ../config.rb:92
-msgid "Event Schedule Poll"
-msgstr "Enquesta de data"
-
-#: ../config.rb:96
-msgid "Normal Poll"
-msgstr "Enquesta"
 
 #: ../customize.cgi:31 ../customize.rb:31
 msgid "Customize Personal Settings"
@@ -552,23 +558,23 @@ msgid ""
 "\"maintenance.html\" to enable the maintenance mode."
 msgstr ""
 
-#: ../not_found.cgi:29
+#: ../not_found.cgi:30
 msgid "Poll Not Found"
 msgstr "Aquesta enquesta no existeix"
 
-#: ../not_found.cgi:31
+#: ../not_found.cgi:32
 msgid "The requested Poll was not found."
 msgstr "Aquesta enquesta no existeix"
 
-#: ../not_found.cgi:32
+#: ../not_found.cgi:33
 msgid "There are several reasons, why a Poll is deleted:"
 msgstr "Hi ha varis motius per a què s'hagi esborrat una enquesta:"
 
-#: ../not_found.cgi:33
+#: ../not_found.cgi:34
 msgid "Somebody clicked on “Delete Poll” and deleted the poll manually."
 msgstr "Algú ha clicat a “Esborrar enquesta“ i l'ha esborrat manualment."
 
-#: ../not_found.cgi:34
+#: ../not_found.cgi:35
 msgid ""
 "The Poll was deleted by the administrator because it was not accessed for a "
 "long time."
@@ -576,7 +582,7 @@ msgstr ""
 "L'administrador l'ha esborrat perquè no s'hi ha accedit des de fa molt de "
 "temps."
 
-#: ../not_found.cgi:35
+#: ../not_found.cgi:36
 msgid ""
 "If you think, the deletion was done by error, please contact the "
 "adminsistrator of the system."
@@ -804,6 +810,12 @@ msgstr "Afegir"
 #: ../timepollhead.rb:428
 msgid "e.&thinsp;g., 09:30, morning, afternoon"
 msgstr "ex. 09:30, matí, tarda"
+
+#~ msgid "Event Schedule Poll"
+#~ msgstr "Enquesta de data"
+
+#~ msgid "Normal Poll"
+#~ msgstr "Enquesta"
 
 #~ msgid "Things you can do now are"
 #~ msgstr "El què pots fer ara és"
